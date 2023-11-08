@@ -5,10 +5,6 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "DatasmithImporter",
-			"Enabled": true
-		},
-		{
 			"Name": "InterchangeEditor",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
@@ -18,31 +14,11 @@
 			]
 		},
 		{
-			"Name": "DatasmithCADImporter",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
-			]
-		},
-		{
-			"Name": "DatasmithC4DImporter",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac"
-			]
-		},
-		{
 			"Name": "AxFImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
-		},
-		{
-			"Name": "DataPrepEditor",
-			"Enabled": true
 		},
 		{
 			"Name": "VariantManager",
@@ -106,21 +82,6 @@
 			]
 		},
 		{
-			"Name": "AVCodecsCore",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
-			]
-		},
-		{
-			"Name": "AMFCodecs",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
 			"Name": "ElectraCodecs",
 			"Enabled": true
 		},
@@ -130,14 +91,6 @@
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Mac"
-			]
-		},
-		{
-			"Name": "NVCodecs",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
 			]
 		},
 		{
@@ -157,8 +110,27 @@
 		},
 		{
 			"Name": "UITouch",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d7b58908e1454aee88239b1022c92a32"
+		},
+		{
+			"Name": "AndroidMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "DatasmithContent",
+			"Enabled": false
 		}
+	],
+	"TargetPlatforms": [
+		"Windows"
 	]
 }
